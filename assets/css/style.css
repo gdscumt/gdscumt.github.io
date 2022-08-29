@@ -85,7 +85,10 @@
   --reddit: #ff5700;
   --rss: #f26522;
   --whatsapp: #25D366;
-  --medium: #02b875;
+  --googleblue: #4285F4;
+  --googlered: #EA4335;
+  --googleyellow: #FBBC04;
+  --googlegreen: #34A853;
   --transition: all 0.2s cubic-bezier(0.19, 0.68, 0.49, 1.21);
   --transition2: all .3s linear;
   --curve3: 3px;
@@ -122,6 +125,10 @@
 .bg-color23{background-color:var(--color23);}
 .bg-color24{background-color:var(--color24);}
 .bg-color25{background-color:var(--color25);}
+.bg-colorb{background-color:var(--googleblue);}
+.bg-colorr{background-color:var(--googlered);}
+.bg-colory{background-color:var(--googleyellow);}
+.bg-colorg{background-color:var(--googlegreen);}
 .text-color1{color:var(--color1);}
 .text-color2{color:var(--color2);}
 .text-color3{color:var(--color3);}
