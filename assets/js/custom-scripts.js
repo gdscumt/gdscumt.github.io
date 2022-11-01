@@ -449,6 +449,8 @@
 	}
 
 	//===== Contact Form Validation =====//
+	  
+	  /*
 	if ($('#email-form').length) {
 	  $('form#email-form').submit(function (e) {
 		e.preventDefault();
@@ -480,9 +482,12 @@
 		  }
 		});
 	  });
-	}
+	  }
+	  */
 
-	/*===== Newsletter Form Validation =====*/
+
+	  /*===== Newsletter Form Validation =====*/
+	  /*
 	if($('#subscribe-form').length){
 	  $('form#subscribe-form').submit(function (e) {
 		e.preventDefault();
@@ -513,6 +518,7 @@
 		});
 	  });
 	}
+	*/
 
 	//===== Slick Carousel =====//
 	if ($.isFunction($.fn.slick)) {
