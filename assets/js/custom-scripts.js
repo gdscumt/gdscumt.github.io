@@ -450,75 +450,75 @@
 
 	//===== Contact Form Validation =====//
 	  
-	  /*
-	if ($('#email-form').length) {
-	  $('form#email-form').submit(function (e) {
-		e.preventDefault();
-		var fname = $('#email-form .fname').val();
-		var lname = $('#email-form .lname').val();
-		var email = $('#email-form .email').val();
-		var phone = $('#email-form .phone').val();
-		if (fname == '' || email == '') {
-		  $(this).children().children('.response').html('<div class="failed alert alert-warning">Please fill the required fields.</div>');
-		  return false;
-		}
-		$.ajax({
-		  url: "sendemail.php",
-		  method: "POST",
-		  data: $(this).serialize(),
-		  beforeSend: () => {
-			$(this).children('.response').html('<div class="text-info"> Loading...</div>');
-		  },
-		  success: (data) => {
-			$(this).children().children('.response').fadeIn().html(data);
-			setTimeout(function () {
-			  $(this).children().children('.response').fadeOut("slow");
-			}, 5000);
-			$(this).trigger("reset");
-		  },
-		  error: (res) => {
-			console.log(res);
-			$(this).children().children('.response').fadeIn().html(data);
-		  }
-		});
-	  });
-	  }
-	  */
+	
+	// if ($('#email-form').length) {
+	//   $('form#email-form').submit(function (e) {
+	// 	e.preventDefault();
+	// 	var fname = $('#email-form .fname').val();
+	// 	var lname = $('#email-form .lname').val();
+	// 	var email = $('#email-form .email').val();
+	// 	var phone = $('#email-form .phone').val();
+	// 	if (fname == '' || email == '') {
+	// 	  $(this).children().children('.response').html('<div class="failed alert alert-warning">Please fill the required fields.</div>');
+	// 	  return false;
+	// 	}
+	// 	$.ajax({
+	// 	  url: "sendemail.php",
+	// 	  method: "POST",
+	// 	  data: $(this).serialize(),
+	// 	  beforeSend: () => {
+	// 		$(this).children('.response').html('<div class="text-info"> Loading...</div>');
+	// 	  },
+	// 	  success: (data) => {
+	// 		$(this).children().children('.response').fadeIn().html(data);
+	// 		setTimeout(function () {
+	// 		  $(this).children().children('.response').fadeOut("slow");
+	// 		}, 5000);
+	// 		$(this).trigger("reset");
+	// 	  },
+	// 	  error: (res) => {
+	// 		console.log(res);
+	// 		$(this).children().children('.response').fadeIn().html(data);
+	// 	  }
+	// 	});
+	//   });
+	//   }
+	  
 
 
-	  /*===== Newsletter Form Validation =====*/
-	  /*
-	if($('#subscribe-form').length){
-	  $('form#subscribe-form').submit(function (e) {
-		e.preventDefault();
-		var email = $(this).children('.email').val();
-		var url_link = $(this).children('.url').val();
-		if (email.length == 0) {
-		  $(this).children('.response').html('<div class="failed alert alert-warning">Please fill the required fields.</div>');
-		  return false;
-		}
-		$.ajax({
-		  url: "sendnewsletter.php",
-		  method: "POST",
-		  data: $(this).serialize(),
-		  beforeSend: () => {
-			$(this).children('.response').html('<div class="text-info"> Loading...</div>');
-		  },
-		  success: (data) => {
-			$(this).children('.response').fadeIn().html(data);
-			setTimeout(function () {
-			  $(this).children('.response').fadeOut("slow");
-			}, 5000);
-			$(this).trigger("reset");
-		  },
-		  error: (res) => {
-			console.log(res);
-			$(this).children('.response').fadeIn().html(data);
-		  }
-		});
-	  });
-	}
-	*/
+	//   /*===== Newsletter Form Validation =====*/
+	  
+	// if($('#subscribe-form').length){
+	//   $('form#subscribe-form').submit(function (e) {
+	// 	e.preventDefault();
+	// 	var email = $(this).children('.email').val();
+	// 	var url_link = $(this).children('.url').val();
+	// 	if (email.length == 0) {
+	// 	  $(this).children('.response').html('<div class="failed alert alert-warning">Please fill the required fields.</div>');
+	// 	  return false;
+	// 	}
+	// 	$.ajax({
+	// 	  url: "sendnewsletter.php",
+	// 	  method: "POST",
+	// 	  data: $(this).serialize(),
+	// 	  beforeSend: () => {
+	// 		$(this).children('.response').html('<div class="text-info"> Loading...</div>');
+	// 	  },
+	// 	  success: (data) => {
+	// 		$(this).children('.response').fadeIn().html(data);
+	// 		setTimeout(function () {
+	// 		  $(this).children('.response').fadeOut("slow");
+	// 		}, 5000);
+	// 		$(this).trigger("reset");
+	// 	  },
+	// 	  error: (res) => {
+	// 		console.log(res);
+	// 		$(this).children('.response').fadeIn().html(data);
+	// 	  }
+	// 	});
+	//   });
+	// }
+	
 
 	//===== Slick Carousel =====//
 	if ($.isFunction($.fn.slick)) {
