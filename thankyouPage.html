@@ -1,95 +1,111 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-  <link rel="icon" href="assets/images/favicons-32x32.png" sizes="32x32" type="image/png">
-  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
-  <title>GDSC UMT</title>
-  <style>
-    body {
-      font-family: 'Open Sans', sans-serif;
-      background-color: #f1f1f1;
-    }
-    .thank-you-container {
-      width: 500px;
-      margin: 0 auto;
-      background-color: #fff;
-      border-radius: 10px;
-      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
-      padding: 20px;
-      text-align: center;
-    }
-    .thank-you-container h1 {
-      font-size: 3rem;
-      margin-bottom: 20px;
-    }
-    .thank-you-container p {
-      font-size: 1.2rem;
-      margin-bottom: 20px;
-    }
-    .thank-you-container a {
-      display: inline-block;
-      padding: 12px 24px;
-      background-color: #FBBC04;
-      color: #fff;
-      border-radius: 4px;
-      text-decoration: none;
-      font-size: 16px;
-      font-weight: 600;
-      cursor: pointer;
-    }
-    .thank-you-container a:hover {
-      background-color: #FFCA28;
-    }
-    .thank-you-container .checkmark {
-      width: 100px;
-      height: 100px;
-      border-radius: 50%;
-      border: 5px solid #4285F4;
-      animation: checkmark-animation 1s ease-in-out;
-    }
-    .thank-you-container .checkmark .path {
-      stroke-dasharray: 166;
-      stroke-dashoffset: 166;
-      stroke-width: 5;
-      stroke: #4285F4;
-      animation: checkmark-path-animation 2s ease-out;
-    }
-    
-    .thank-you-container .logo{
-      width: 100%;
-      height: 100%;
-      object-fit: cover;
-      overflow: hidden;
-      padding-bottom: 20px;
-    }
-    @keyframes checkmark-animation {
-      0% {
-        transform: scale(0);
-      }
-      100% {
-        transform: scale(1);
-      }
-    }
-    @keyframes checkmark-path-animation {
-      0% {
-        stroke-dashoffset: 166;
-      }
-      100% {
-        stroke-dashoffset: 0;
-      }
-    }
-  </style>
+    <link rel="icon" href="assets/images/favicons-32x32.png" sizes="32x32" type="image/png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <title>GDSC UMT</title>
+    <style>
+        body {
+            font-family: 'Open Sans', sans-serif;
+            background-color: #f1f1f1;
+        }
+
+        .thank-you-container {
+            width: 500px;
+            margin: 0 auto;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+            padding: 20px;
+            text-align: center;
+        }
+
+        .thank-you-container h1 {
+            font-size: 3rem;
+            margin-bottom: 20px;
+        }
+
+        .thank-you-container p {
+            font-size: 1.2rem;
+            margin-bottom: 20px;
+        }
+
+        .thank-you-container a {
+            display: inline-block;
+            padding: 12px 24px;
+            background-color: #4285F4;
+            color: #fff;
+            border-radius: 4px;
+            text-decoration: none;
+            font-size: 16px;
+            font-weight: 600;
+            cursor: pointer;
+        }
+
+        .thank-you-container a:hover {
+            background-color: #3367D6;
+        }
+
+        .thank-you-container .checkmark {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            border: 5px solid #4285F4;
+            animation: checkmark-animation 1s ease-in-out;
+        }
+
+        .thank-you-container .checkmark .path {
+            stroke-dasharray: 166;
+            stroke-dashoffset: 166;
+            stroke-width: 5;
+            stroke: #4285F4;
+            animation: checkmark-path-animation 2s ease-out;
+        }
+
+        .thank-you-container .logo {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            overflow: hidden;
+            padding-bottom: 20px;
+        }
+
+        @keyframes checkmark-animation {
+            0% {
+                transform: scale(0);
+            }
+
+            100% {
+                transform: scale(1);
+            }
+        }
+
+        @keyframes checkmark-path-animation {
+            0% {
+                stroke-dashoffset: 166;
+            }
+
+            100% {
+                stroke-dashoffset: 0;
+            }
+        }
+    </style>
 </head>
+
 <body>
-  <div class="thank-you-container">
-    <img class="logo" src="assets\images\GDSCUMT_logo.png" alt="GDSC_UMT_Logo">
-    <svg class="checkmark" viewBox="0 0 52 52">
-      <circle class="path" cx="26" cy="26" r="25" fill="none" stroke-linecap="round"/>
-      <path class="path" fill="none" stroke-linecap="round" d="M14.1 27.2l7.1 7.2 16.7-16.8"/>
-    </svg>
-    <h1>Thank you for subscribing!</h1>
-    <p>We'll keep you up to date with the latest news and updates.</p>
-    <a href="index.html">Return to the homepage</a>
-  </div>
+    <div class="thank-you-container">
+        <img class="logo" src="assets\images\GDSCUMT_logo.png" alt="GDSC_UMT_Logo">
+        <svg class="checkmark" viewBox="0 0 52 52">
+            <circle class="path" cx="26" cy="26" r="25" fill="none" stroke-linecap="round" />
+            <path class="path" fill="none" stroke-linecap="round" d="M14.1 27.2l7.1 7.2 16.7-16.8" />
+        </svg>
+        <h1>Thank you for subscribing!</h1>
+        <p>We'll keep you up to date with the latest news and updates.</p>
+        <a href="index.html">Return to the homepage</a>
+    </div>
 </body>
+
 </html>
