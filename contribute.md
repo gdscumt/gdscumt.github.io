@@ -1,40 +1,31 @@
-# Contributors' Guide
+# Contributors' Guide 🚀
 
-Thank you for investing your time in contributing to our project! Any contribution you make will be reflected on Readme.md.
+Thank you for taking the time to contribute to our project! Your contributions will be reflected on the Readme.md file. 💻
 
+## Getting started 💡
 
-## Getting started
+This project does not require any specific coding skills, but you should be familiar with Linux commands. 💻
 
-This project does not need any particular code writing skills however you should be familiar with Linux commands.
+## Making Changes 🛠️
 
-### Issues
+- Fork the repository. 🍴
+- Create a new branch and start making changes. 💻
+- Test your changes thoroughly to ensure they work as expected.
+- Commit your changes when you're done. ✅
 
-**Create a new issue**
-  - If you spot a problem with any existing command in the [Readme](https://github.com/gdscumt/gdscumt.github.io/blob/main/README.md) doc, search if an [issue](https://github.com/gdscumt/gdscumt.github.io/issues) already exists. If a related issue doesn't exist, you can open a new issue using a relevant issue form.
+## Pull Request 🚀
 
-**Solve an issue**
-  - Scan through our existing issues to find one that interests you. You can narrow down the search using labels as filters. See Labels for more information.
+Once you're done making changes, it's time to open a pull request (PR). 🙌
 
-### To make Changes
+- Fill out the "Ready for review" template so we can review your PR. This will help us understand your changes and the purpose of the PR. 📝
+- Don't forget to link the PR to an issue if you're solving one. 🔗
+- Enable the checkbox to allow maintainer edits so the branch can be updated for a merge. Once you submit your PR, we'll review it. 🔍
+- We may ask for changes to be made before the PR can be merged. You can make these changes in your fork and then commit them to your branch. 🛠️
+- As you update your PR, mark each conversation as resolved. 💬
+- If you encounter any merge issues, check out this [git tutorial](https://www.atlassian.com/git/tutorials/merging-vs-rebasing) to help you resolve them. 💡
 
-- Fork the repository.
-- Create a working branch and start with your changes!
-- Commit the changes once done.
+## Your PR is merged! 🎉
 
-## Pull Request
+Congratulations! 🎊 Once your PR is merged, your contributions will be publicly visible. 🌟
 
-When you're done making the changes, open a pull request, often referred to as a PR.
-
-- Fill out the *"Ready for review"* template so we can review your PR. The template helps reviewers understand your changes and the purpose of your pull request.
-- Don't forget to link PR to issue if you are *solving* one.
-- Enable the checkbox to allow maintainer edits so the branch can be updated for a merge. Once you submit your PR we will review it.
-- We may ask for changes to be made before a PR can be merged, either using suggested changes or pull request comments. You can apply suggested changes directly through the UI. You can make any other changes in your fork, then commit them to your branch.
-- As you update your PR and apply changes, mark each conversation as resolved.
-- If you run into any merge issues, checkout this git tutorial to help you resolve merge conflicts and other issues.
-
-## Your PR is merged!
-Congrats 🎉🎉 
-Once your PR is merged, your contributions will be publicly visible. :sparkles: 
-
---- 
-Looking for your contribution. 
+We're looking forward to your contributions! 💻
