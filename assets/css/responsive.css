@@ -348,11 +348,6 @@ p {font-size: .9375rem !important;line-height: 1.6;}
 
 }
 
-@media (max-width: 470px) {
-
-
-}
-
 @media (max-width: 430px) {
 .wheel-icon-cap-inner > p {display: none;}
 
